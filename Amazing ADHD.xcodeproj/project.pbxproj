@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		8D0C3EC7291282EE0092CABF /* Amazing_ADHDApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0C3EC6291282EE0092CABF /* Amazing_ADHDApp.swift */; };
-		8D0C3EC9291282EE0092CABF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0C3EC8291282EE0092CABF /* ContentView.swift */; };
 		8D0C3ECB291282EE0092CABF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D0C3ECA291282EE0092CABF /* Assets.xcassets */; };
 		8D0C3ECE291282EE0092CABF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D0C3ECD291282EE0092CABF /* Preview Assets.xcassets */; };
+		8D0C3ED6291287160092CABF /* Binaural40HZ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8D0C3ED5291287160092CABF /* Binaural40HZ.mp3 */; };
+		8D0C3ED8291287400092CABF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0C3ED7291287400092CABF /* HomeView.swift */; };
+		8DE74C532913DC1A000D2FD7 /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE74C522913DC1A000D2FD7 /* CircularProgressView.swift */; };
+		8DE74C55291404BE000D2FD7 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE74C54291404BE000D2FD7 /* SoundManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8D0C3EC3291282EE0092CABF /* Amazing ADHD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Amazing ADHD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D0C3EC6291282EE0092CABF /* Amazing_ADHDApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amazing_ADHDApp.swift; sourceTree = "<group>"; };
-		8D0C3EC8291282EE0092CABF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8D0C3ECA291282EE0092CABF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D0C3ECD291282EE0092CABF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8D0C3ED5291287160092CABF /* Binaural40HZ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Binaural40HZ.mp3; sourceTree = "<group>"; };
+		8D0C3ED7291287400092CABF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		8DE74C522913DC1A000D2FD7 /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
+		8DE74C54291404BE000D2FD7 /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +58,10 @@
 			isa = PBXGroup;
 			children = (
 				8D0C3EC6291282EE0092CABF /* Amazing_ADHDApp.swift */,
-				8D0C3EC8291282EE0092CABF /* ContentView.swift */,
+				8D0C3ED7291287400092CABF /* HomeView.swift */,
+				8DE74C54291404BE000D2FD7 /* SoundManager.swift */,
+				8DE74C522913DC1A000D2FD7 /* CircularProgressView.swift */,
+				8D0C3ED4291287030092CABF /* Sounds */,
 				8D0C3ECA291282EE0092CABF /* Assets.xcassets */,
 				8D0C3ECC291282EE0092CABF /* Preview Content */,
 			);
@@ -65,6 +74,14 @@
 				8D0C3ECD291282EE0092CABF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8D0C3ED4291287030092CABF /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				8D0C3ED5291287160092CABF /* Binaural40HZ.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +142,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D0C3ED6291287160092CABF /* Binaural40HZ.mp3 in Resources */,
 				8D0C3ECE291282EE0092CABF /* Preview Assets.xcassets in Resources */,
 				8D0C3ECB291282EE0092CABF /* Assets.xcassets in Resources */,
 			);
@@ -137,7 +155,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D0C3EC9291282EE0092CABF /* ContentView.swift in Sources */,
+				8D0C3ED8291287400092CABF /* HomeView.swift in Sources */,
+				8DE74C55291404BE000D2FD7 /* SoundManager.swift in Sources */,
+				8DE74C532913DC1A000D2FD7 /* CircularProgressView.swift in Sources */,
 				8D0C3EC7291282EE0092CABF /* Amazing_ADHDApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

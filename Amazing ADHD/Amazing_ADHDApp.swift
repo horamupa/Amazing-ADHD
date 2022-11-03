@@ -11,7 +11,7 @@ import SwiftUI
 struct Amazing_ADHDApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
     }
 }
